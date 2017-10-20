@@ -1,0 +1,38 @@
+.c-card{
+     display: block;
+     position: relative;
+
+ }
+
+.c-card--gallery{
+    width:320px;
+    height: 250px;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
+    .c-card__description{
+        padding: 5px 10px;
+        line-height: 1px;
+        border-top: 3px solid #0FA3E7;
+        .c-card__title{
+            color: #000;
+            line-height: 15px;
+            font-size: 1.5em;
+        }
+        .c-card__img{
+            height:70%;
+            width: 100%;
+        }
+        .c-card__speaker-name{
+            z-index: 100;
+            color: #333;
+            top:20px;
+            left:0;
+            right:0;;
+        }
+        .c-card__date{
+            color:#555;
+            font-size: .8em;
+            font-weight: lighter;
+        }
+    }
+
+}

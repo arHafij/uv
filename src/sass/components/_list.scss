@@ -1,0 +1,35 @@
+.c-list{
+    .c-list__title{
+        list-style-type: none;
+    }
+    .c-list__item{
+        list-style-type: none;
+    }
+}
+
+.c-list--sidebar{
+    margin-bottom: 20px;
+    .c-list__title{
+        font-family: 'Monda', sans-serif;
+        background: linear-gradient(to top, #2B32B2, #1488CC);
+        color:#fff;
+        padding: 8px 0 8px 5px;
+    }
+    .c-list__item{
+        padding: 2px 0 2px 2px;
+        font-size: .9rem;
+        transition: .9s;
+        a{
+            text-decoration: none;
+        }
+        a:hover{
+            color: #fff;
+        }
+        &:hover{
+            background: #666;
+            text-decoration:underline;
+            box-shadow: -1px 0px 10px 1px #aaaaaa;
+            padding-left: 15px;
+        }
+    }
+}

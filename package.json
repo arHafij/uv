@@ -1,0 +1,16 @@
+{
+  "name": "u-vission",
+  "version": "1.0.0",
+  "description": "Its a univer vission tv project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "hafij",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^4.0.0-beta.2",
+    "jquery": "^3.2.1",
+    "popper.js": "^1.12.5"
+  }
+}

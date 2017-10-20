@@ -1,0 +1,34 @@
+
+.l-logo {
+    padding: 15px 0;
+}
+
+.l-slider {
+    padding-top: 150px;
+    height: 80vh;
+    background: #1488CC;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #2B32B2, #1488CC);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #2B32B2, #1488CC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.l-content-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    .l-content {
+        flex: 80%;
+        padding: 10px 25px 20px 25px;
+    }
+    .l-sidebar {
+        flex: 20%;
+    }
+}
+
+.l-footer-top {
+    padding: 20px 0 0;
+    background: #eee;
+}
+
+.l-footer-bottom {
+    padding: 20px 0 10px;
+}
