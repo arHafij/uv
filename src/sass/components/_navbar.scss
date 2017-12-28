@@ -6,5 +6,11 @@
         font-weight: 300;
         font-family: 'Monda', sans-serif;
     }
+    li{
+        border-bottom: 3px solid transparent;
+    }
+    li:hover{
+        border-bottom: 3px solid blue;
+    }
 
 }

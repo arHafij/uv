@@ -11,7 +11,7 @@
     margin-bottom: 20px;
     .c-list__title{
         font-family: 'Monda', sans-serif;
-        background: linear-gradient(to top, #2B32B2, #1488CC);
+        background: linear-gradient(to bottom, #2B32B2, #1488CC);
         color:#fff;
         padding: 8px 0 8px 5px;
     }
@@ -31,5 +31,23 @@
             box-shadow: -1px 0px 10px 1px #aaaaaa;
             padding-left: 15px;
         }
+    }
+}
+
+.c-list--footer{
+    .c-list__title{
+        text-align: center;
+        font-family: 'Monda', sans-serif;
+        color:#fff;
+
+    }
+    .c-list__item{
+        text-align: center;
+        a{
+            text-shadow: 0 0 15px #fff;
+            color:#111;
+            font-size: .8em;
+        }
+
     }
 }
